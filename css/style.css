@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Taprom&display=swap');
+
+/* Main Styling */
+html,
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+	background: #cfa674;
+	height: 3px;
+	border: 0;
+	opacity: 1 !important;
+	width: 100px;
+}
+
+/* Bootstrap Styling */
+.p-6 {
+	padding: 120px;
+}
+.display-1 {
+	font-size: 9rem;
+}
+
+.btn-primary {
+	background: #cfa674 !important;
+	border: 0;
+}
+
+.text-primary {
+	color: #cfa674 !important;
+}
+
+.border-primary {
+	border: 10px solid #cfa674 !important;
+}
+
+.border-secondary {
+	border: 2px solid #cfa674 !important;
+}
+
+.fs-2 {
+	font-size: 7rem !important;
+	margin-top: -50px;
+}
+
+/* Utility Classes */
+.new-year {
+	background: url('/images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.p-cursive {
+	font-family: 'Whisper', cursive;
+}
